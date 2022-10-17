@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 300;
+    src: url('museosanscyrl-300.ttf');
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 500;
+    src: url('museosanscyrl-500.ttf');
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 700;
+    src: url('museosanscyrl-700.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    font-family: 'Museo Sans Cyrl';
+    background-color: #F0F0F0;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 15em 15em 1fr;
+    grid-gap: 1em;
+}
+
+.currency {
+    text-decoration: overline;
+    font-weight: 700;
+}
+
+.login {
+    background-color: rgb(106, 106, 106, 0.08);
+    padding: 2em;
+}
+
+.balance {
+    background-color: rgb(106, 106, 106, 0.08);
+    padding: 2em;
+}
+
+.game {
+    background-color: rgb(106, 106, 106, 0.08);
+    padding: 2em;
+}
+
+.game-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
