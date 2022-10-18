@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The One</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="content">
@@ -20,38 +21,40 @@
             <p class="balance__actual"></p><span class="currency">ET</span>
         </div>
         <div class="game">
-            <h3 class="game__header">Варианты обмена на скидку</h3>
+            <div class="game-header-box">
+                <h3 class="game__header">Варианты обмена на скидку</h3>
+                <button>Инструкция</button>
+            </div>
             <div class="game-wrapper">
                 <div class="game-box">
                     <img src="coin.svg" alt="Coin">
                     <p class="game__cost">50 </p><span class="currency">ET</span>
                     <span>50%</span>
                     <p>на звонки ST (x2)</p>
-                    <button>Использовать скидку</button>
+                    <button class="game__btn">Использовать скидку</button>
                 </div>
                 <div class="game-box">
                     <img src="coin.svg" alt="Coin">
                     <p class="game__cost">70 </p><span class="currency">ET</span>
                     <span>30%</span>
                     <p>на спецкурс</p>
-                    <button>Использовать скидку</button>
+                    <button class="game__btn">Использовать скидку</button>
                 </div>
                 <div class="game-box">
                     <img src="coin.svg" alt="Coin">
                     <p class="game__cost">100 </p><span class="currency">ET</span>
                     <span>50%</span>
                     <p>на курс</p>
-                    <button>Использовать скидку</button>
+                    <button class="game__btn">Использовать скидку</button>
                 </div>
                 <div class="game-box">
                     <img src="coin.svg" alt="Coin">
                     <p class="game__cost">139 </p><span class="currency">ET</span>
                     <span>65%</span>
                     <p>на курс</p>
-                    <button>Использовать скидку</button>
+                    <button class="game__btn">Использовать скидку</button>
                 </div>
             </div>
-            <button>Инструкция</button>
         </div>
     </div>
 </body>
